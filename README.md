@@ -1,6 +1,8 @@
 # [Separation of concerns: UI Edition](https://medium.com/@IanKeen/1916a35a6899)
 This is the accompanying project to the blog post.
 
+-  Updated to Swift 4.0 using Xcode 9.0.
+
 It showcases a way to architect a project such that:
 
 - View controllers are not responsible for navigation, nor aware of each other.

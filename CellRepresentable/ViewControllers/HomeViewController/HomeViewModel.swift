@@ -39,12 +39,12 @@ extension HomeViewModel {
         }
     }
     
-    private func stringCellViewModel(value: Int) -> StringCellViewModel {
+    private func stringCellViewModel(_ value: Int) -> StringCellViewModel {
         let instance = StringCellViewModel(value: value)
         instance.didSelectString = { self.didSelectString?($0) }
         return instance
     }
-    private func intCellViewModel(value: Int) -> IntCellViewModel {
+    private func intCellViewModel(_ value: Int) -> IntCellViewModel {
         let instance = IntCellViewModel(value: value)
         instance.didSelectInteger = { self.didSelectInteger?($0) }
         return instance
